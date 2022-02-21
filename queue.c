@@ -97,7 +97,6 @@ int q_size(struct list_head *head)
     struct list_head *li;
     list_for_each (li, head)
         len++;
-
     return len;
 }
 
