@@ -34,7 +34,7 @@ bool q_insert_head(struct list_head *head, char *s)
 {
     return true;
 }
-
+//
 /*
  * Attempt to insert element at tail of queue.
  * Return true if successful.
